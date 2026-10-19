@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
+  <style id="current-color-scheme" type="text/css">
+    .ColorScheme-Background { color: #141414; }
+    .ColorScheme-Text { color: #eeeeee; }
+  </style>
+
+  <!-- A square, opaque FrameSvg. The one-pixel frame becomes the quiet grid
+       line around the panel while the center remains System24 off-black. -->
+  <rect id="center" x="19" y="19" width="16" height="16"
+        class="ColorScheme-Background" fill="currentColor"/>
+
+  <rect id="top" x="19" y="17" width="16" height="1"
+        class="ColorScheme-Text" fill="currentColor" opacity="0.16"/>
+  <rect id="bottom" x="19" y="36" width="16" height="1"
+        class="ColorScheme-Text" fill="currentColor" opacity="0.16"/>
+  <rect id="left" x="17" y="19" width="1" height="16"
+        class="ColorScheme-Text" fill="currentColor" opacity="0.16"/>
+  <rect id="right" x="36" y="19" width="1" height="16"
+        class="ColorScheme-Text" fill="currentColor" opacity="0.16"/>
+
+  <rect id="topleft" x="17" y="17" width="1" height="1"
+        class="ColorScheme-Text" fill="currentColor" opacity="0.16"/>
+  <rect id="topright" x="36" y="17" width="1" height="1"
+        class="ColorScheme-Text" fill="currentColor" opacity="0.16"/>
+  <rect id="bottomleft" x="17" y="36" width="1" height="1"
+        class="ColorScheme-Text" fill="currentColor" opacity="0.16"/>
+  <rect id="bottomright" x="36" y="36" width="1" height="1"
+        class="ColorScheme-Text" fill="currentColor" opacity="0.16"/>
+
+  <rect id="hint-tile-center" x="0" y="0" width="2" height="2" fill="#ff00ff"/>
+  <rect id="hint-top-margin" x="25" y="12" width="4" height="1" fill="#ff00ff"/>
+  <rect id="hint-bottom-margin" x="25" y="41" width="4" height="1" fill="#ff00ff"/>
+  <rect id="hint-left-margin" x="12" y="25" width="1" height="4" fill="#ff00ff"/>
+  <rect id="hint-right-margin" x="41" y="25" width="1" height="4" fill="#ff00ff"/>
+</svg>

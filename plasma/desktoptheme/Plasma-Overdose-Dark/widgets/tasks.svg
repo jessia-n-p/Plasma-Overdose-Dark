@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="238" height="38" viewBox="0 0 238 38">
+  <style id="current-color-scheme" type="text/css">
+    .ColorScheme-Background { color: #141414; }
+    .ColorScheme-Text { color: #eeeeee; }
+    .ColorScheme-ButtonFocus { color: #a679c6; }
+    .ColorScheme-ButtonHover { color: #df7a9b; }
+    .ColorScheme-NeutralText { color: #cbaa4b; }
+    .ColorScheme-PositiveText { color: #3bb693; }
+  </style>
+
+  <!-- Generic task frames. Every state keeps a dark center; only the thin
+       square frame changes, producing System24-like outlined cells. -->
+  <g id="normal-topleft"><rect x="0" y="0" width="1" height="1" class="ColorScheme-Text" fill="currentColor" opacity="0.18"/></g>
+  <g id="normal-top"><rect x="1" y="0" width="16" height="1" class="ColorScheme-Text" fill="currentColor" opacity="0.18"/></g>
+  <g id="normal-topright"><rect x="17" y="0" width="1" height="1" class="ColorScheme-Text" fill="currentColor" opacity="0.18"/></g>
+  <g id="normal-left"><rect x="0" y="1" width="1" height="16" class="ColorScheme-Text" fill="currentColor" opacity="0.18"/></g>
+  <g id="normal-center"><rect x="1" y="1" width="16" height="16" class="ColorScheme-Background" fill="currentColor"/></g>
+  <g id="normal-right"><rect x="17" y="1" width="1" height="16" class="ColorScheme-Text" fill="currentColor" opacity="0.18"/></g>
+  <g id="normal-bottomleft"><rect x="0" y="17" width="1" height="1" class="ColorScheme-Text" fill="currentColor" opacity="0.18"/></g>
+  <g id="normal-bottom"><rect x="1" y="17" width="16" height="1" class="ColorScheme-Text" fill="currentColor" opacity="0.18"/></g>
+  <g id="normal-bottomright"><rect x="17" y="17" width="1" height="1" class="ColorScheme-Text" fill="currentColor" opacity="0.18"/></g>
+
+  <g id="focus-topleft"><rect x="20" y="0" width="1" height="1" class="ColorScheme-ButtonFocus" fill="currentColor"/></g>
+  <g id="focus-top"><rect x="21" y="0" width="16" height="1" class="ColorScheme-ButtonFocus" fill="currentColor"/></g>
+  <g id="focus-topright"><rect x="37" y="0" width="1" height="1" class="ColorScheme-ButtonFocus" fill="currentColor"/></g>
+  <g id="focus-left"><rect x="20" y="1" width="1" height="16" class="ColorScheme-ButtonFocus" fill="currentColor"/></g>
+  <g id="focus-center"><rect x="21" y="1" width="16" height="16" class="ColorScheme-Background" fill="currentColor"/></g>
+  <g id="focus-right"><rect x="37" y="1" width="1" height="16" class="ColorScheme-ButtonFocus" fill="currentColor"/></g>
+  <g id="focus-bottomleft"><rect x="20" y="17" width="1" height="1" class="ColorScheme-ButtonFocus" fill="currentColor"/></g>
+  <g id="focus-bottom"><rect x="21" y="17" width="16" height="1" class="ColorScheme-ButtonFocus" fill="currentColor"/></g>
+  <g id="focus-bottomright"><rect x="37" y="17" width="1" height="1" class="ColorScheme-ButtonFocus" fill="currentColor"/></g>
+
+  <g id="hover-topleft"><rect x="40" y="0" width="1" height="1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.8"/></g>
+  <g id="hover-top"><rect x="41" y="0" width="16" height="1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.8"/></g>
+  <g id="hover-topright"><rect x="57" y="0" width="1" height="1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.8"/></g>
+  <g id="hover-left"><rect x="40" y="1" width="1" height="16" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.8"/></g>
+  <g id="hover-center"><rect x="41" y="1" width="16" height="16" class="ColorScheme-Background" fill="currentColor"/></g>
+  <g id="hover-right"><rect x="57" y="1" width="1" height="16" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.8"/></g>
+  <g id="hover-bottomleft"><rect x="40" y="17" width="1" height="1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.8"/></g>
+  <g id="hover-bottom"><rect x="41" y="17" width="16" height="1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.8"/></g>
+  <g id="hover-bottomright"><rect x="57" y="17" width="1" height="1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.8"/></g>
+
+  <g id="attention-topleft"><rect x="60" y="0" width="1" height="1" class="ColorScheme-NeutralText" fill="currentColor"/></g>
+  <g id="attention-top"><rect x="61" y="0" width="16" height="1" class="ColorScheme-NeutralText" fill="currentColor"/></g>
+  <g id="attention-topright"><rect x="77" y="0" width="1" height="1" class="ColorScheme-NeutralText" fill="currentColor"/></g>
+  <g id="attention-left"><rect x="60" y="1" width="1" height="16" class="ColorScheme-NeutralText" fill="currentColor"/></g>
+  <g id="attention-center"><rect x="61" y="1" width="16" height="16" class="ColorScheme-Background" fill="currentColor"/></g>
+  <g id="attention-right"><rect x="77" y="1" width="1" height="16" class="ColorScheme-NeutralText" fill="currentColor"/></g>
+  <g id="attention-bottomleft"><rect x="60" y="17" width="1" height="1" class="ColorScheme-NeutralText" fill="currentColor"/></g>
+  <g id="attention-bottom"><rect x="61" y="17" width="16" height="1" class="ColorScheme-NeutralText" fill="currentColor"/></g>
+  <g id="attention-bottomright"><rect x="77" y="17" width="1" height="1" class="ColorScheme-NeutralText" fill="currentColor"/></g>
+
+  <g id="minimized-topleft"><rect x="80" y="0" width="1" height="1" class="ColorScheme-Text" fill="currentColor" opacity="0.08"/></g>
+  <g id="minimized-top"><rect x="81" y="0" width="16" height="1" class="ColorScheme-Text" fill="currentColor" opacity="0.08"/></g>
+  <g id="minimized-topright"><rect x="97" y="0" width="1" height="1" class="ColorScheme-Text" fill="currentColor" opacity="0.08"/></g>
+  <g id="minimized-left"><rect x="80" y="1" width="1" height="16" class="ColorScheme-Text" fill="currentColor" opacity="0.08"/></g>
+  <g id="minimized-center"><rect x="81" y="1" width="16" height="16" class="ColorScheme-Background" fill="currentColor"/></g>
+  <g id="minimized-right"><rect x="97" y="1" width="1" height="16" class="ColorScheme-Text" fill="currentColor" opacity="0.08"/></g>
+  <g id="minimized-bottomleft"><rect x="80" y="17" width="1" height="1" class="ColorScheme-Text" fill="currentColor" opacity="0.08"/></g>
+  <g id="minimized-bottom"><rect x="81" y="17" width="16" height="1" class="ColorScheme-Text" fill="currentColor" opacity="0.08"/></g>
+  <g id="minimized-bottomright"><rect x="97" y="17" width="1" height="1" class="ColorScheme-Text" fill="currentColor" opacity="0.08"/></g>
+
+  <g id="progress-topleft"><rect x="100" y="0" width="1" height="1" class="ColorScheme-PositiveText" fill="currentColor"/></g>
+  <g id="progress-top"><rect x="101" y="0" width="16" height="1" class="ColorScheme-PositiveText" fill="currentColor"/></g>
+  <g id="progress-topright"><rect x="117" y="0" width="1" height="1" class="ColorScheme-PositiveText" fill="currentColor"/></g>
+  <g id="progress-left"><rect x="100" y="1" width="1" height="16" class="ColorScheme-PositiveText" fill="currentColor"/></g>
+  <g id="progress-center"><rect x="101" y="1" width="16" height="16" class="ColorScheme-Background" fill="currentColor"/></g>
+  <g id="progress-right"><rect x="117" y="1" width="1" height="16" class="ColorScheme-PositiveText" fill="currentColor"/></g>
+  <g id="progress-bottomleft"><rect x="100" y="17" width="1" height="1" class="ColorScheme-PositiveText" fill="currentColor"/></g>
+  <g id="progress-bottom"><rect x="101" y="17" width="16" height="1" class="ColorScheme-PositiveText" fill="currentColor"/></g>
+  <g id="progress-bottomright"><rect x="117" y="17" width="1" height="1" class="ColorScheme-PositiveText" fill="currentColor"/></g>
+
+  <!-- A left-hand panel asks for west-prefixed frames. They mirror the same
+       outlined states rather than introducing a filled directional marker. -->
+  <g id="west-normal-topleft"><rect x="120" y="20" width="1" height="1" class="ColorScheme-Text" fill="currentColor" opacity="0.18"/></g>
+  <g id="west-normal-top"><rect x="121" y="20" width="16" height="1" class="ColorScheme-Text" fill="currentColor" opacity="0.18"/></g>
+  <g id="west-normal-topright"><rect x="137" y="20" width="1" height="1" class="ColorScheme-Text" fill="currentColor" opacity="0.18"/></g>
+  <g id="west-normal-left"><rect x="120" y="21" width="1" height="16" class="ColorScheme-Text" fill="currentColor" opacity="0.18"/></g>
+  <g id="west-normal-center"><rect x="121" y="21" width="16" height="16" class="ColorScheme-Background" fill="currentColor"/></g>
+  <g id="west-normal-right"><rect x="137" y="21" width="1" height="16" class="ColorScheme-Text" fill="currentColor" opacity="0.18"/></g>
+  <g id="west-normal-bottomleft"><rect x="120" y="37" width="1" height="1" class="ColorScheme-Text" fill="currentColor" opacity="0.18"/></g>
+  <g id="west-normal-bottom"><rect x="121" y="37" width="16" height="1" class="ColorScheme-Text" fill="currentColor" opacity="0.18"/></g>
+  <g id="west-normal-bottomright"><rect x="137" y="37" width="1" height="1" class="ColorScheme-Text" fill="currentColor" opacity="0.18"/></g>
+
+  <g id="west-focus-topleft"><rect x="140" y="20" width="1" height="1" class="ColorScheme-ButtonFocus" fill="currentColor"/></g>
+  <g id="west-focus-top"><rect x="141" y="20" width="16" height="1" class="ColorScheme-ButtonFocus" fill="currentColor"/></g>
+  <g id="west-focus-topright"><rect x="157" y="20" width="1" height="1" class="ColorScheme-ButtonFocus" fill="currentColor"/></g>
+  <g id="west-focus-left"><rect x="140" y="21" width="1" height="16" class="ColorScheme-ButtonFocus" fill="currentColor"/></g>
+  <g id="west-focus-center"><rect x="141" y="21" width="16" height="16" class="ColorScheme-Background" fill="currentColor"/></g>
+  <g id="west-focus-right"><rect x="157" y="21" width="1" height="16" class="ColorScheme-ButtonFocus" fill="currentColor"/></g>
+  <g id="west-focus-bottomleft"><rect x="140" y="37" width="1" height="1" class="ColorScheme-ButtonFocus" fill="currentColor"/></g>
+  <g id="west-focus-bottom"><rect x="141" y="37" width="16" height="1" class="ColorScheme-ButtonFocus" fill="currentColor"/></g>
+  <g id="west-focus-bottomright"><rect x="157" y="37" width="1" height="1" class="ColorScheme-ButtonFocus" fill="currentColor"/></g>
+
+  <g id="west-hover-topleft"><rect x="160" y="20" width="1" height="1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.8"/></g>
+  <g id="west-hover-top"><rect x="161" y="20" width="16" height="1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.8"/></g>
+  <g id="west-hover-topright"><rect x="177" y="20" width="1" height="1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.8"/></g>
+  <g id="west-hover-left"><rect x="160" y="21" width="1" height="16" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.8"/></g>
+  <g id="west-hover-center"><rect x="161" y="21" width="16" height="16" class="ColorScheme-Background" fill="currentColor"/></g>
+  <g id="west-hover-right"><rect x="177" y="21" width="1" height="16" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.8"/></g>
+  <g id="west-hover-bottomleft"><rect x="160" y="37" width="1" height="1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.8"/></g>
+  <g id="west-hover-bottom"><rect x="161" y="37" width="16" height="1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.8"/></g>
+  <g id="west-hover-bottomright"><rect x="177" y="37" width="1" height="1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.8"/></g>
+
+  <g id="west-attention-topleft"><rect x="180" y="20" width="1" height="1" class="ColorScheme-NeutralText" fill="currentColor"/></g>
+  <g id="west-attention-top"><rect x="181" y="20" width="16" height="1" class="ColorScheme-NeutralText" fill="currentColor"/></g>
+  <g id="west-attention-topright"><rect x="197" y="20" width="1" height="1" class="ColorScheme-NeutralText" fill="currentColor"/></g>
+  <g id="west-attention-left"><rect x="180" y="21" width="1" height="16" class="ColorScheme-NeutralText" fill="currentColor"/></g>
+  <g id="west-attention-center"><rect x="181" y="21" width="16" height="16" class="ColorScheme-Background" fill="currentColor"/></g>
+  <g id="west-attention-right"><rect x="197" y="21" width="1" height="16" class="ColorScheme-NeutralText" fill="currentColor"/></g>
+  <g id="west-attention-bottomleft"><rect x="180" y="37" width="1" height="1" class="ColorScheme-NeutralText" fill="currentColor"/></g>
+  <g id="west-attention-bottom"><rect x="181" y="37" width="16" height="1" class="ColorScheme-NeutralText" fill="currentColor"/></g>
+  <g id="west-attention-bottomright"><rect x="197" y="37" width="1" height="1" class="ColorScheme-NeutralText" fill="currentColor"/></g>
+
+  <g id="west-minimized-topleft"><rect x="200" y="20" width="1" height="1" class="ColorScheme-Text" fill="currentColor" opacity="0.08"/></g>
+  <g id="west-minimized-top"><rect x="201" y="20" width="16" height="1" class="ColorScheme-Text" fill="currentColor" opacity="0.08"/></g>
+  <g id="west-minimized-topright"><rect x="217" y="20" width="1" height="1" class="ColorScheme-Text" fill="currentColor" opacity="0.08"/></g>
+  <g id="west-minimized-left"><rect x="200" y="21" width="1" height="16" class="ColorScheme-Text" fill="currentColor" opacity="0.08"/></g>
+  <g id="west-minimized-center"><rect x="201" y="21" width="16" height="16" class="ColorScheme-Background" fill="currentColor"/></g>
+  <g id="west-minimized-right"><rect x="217" y="21" width="1" height="16" class="ColorScheme-Text" fill="currentColor" opacity="0.08"/></g>
+  <g id="west-minimized-bottomleft"><rect x="200" y="37" width="1" height="1" class="ColorScheme-Text" fill="currentColor" opacity="0.08"/></g>
+  <g id="west-minimized-bottom"><rect x="201" y="37" width="16" height="1" class="ColorScheme-Text" fill="currentColor" opacity="0.08"/></g>
+  <g id="west-minimized-bottomright"><rect x="217" y="37" width="1" height="1" class="ColorScheme-Text" fill="currentColor" opacity="0.08"/></g>
+
+  <rect id="normal-hint-top-margin" x="224" y="20" width="4" height="1" fill="#ff00ff"/>
+  <rect id="normal-hint-bottom-margin" x="224" y="37" width="4" height="1" fill="#ff00ff"/>
+  <rect id="normal-hint-left-margin" x="220" y="26" width="1" height="4" fill="#ff00ff"/>
+  <rect id="normal-hint-right-margin" x="231" y="26" width="1" height="4" fill="#ff00ff"/>
+</svg>
